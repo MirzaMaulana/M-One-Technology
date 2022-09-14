@@ -1,0 +1,201 @@
+@font-face {
+    font-family: rubik-bold;
+    src: url(/asset/fonts/Rubik-Bold.ttf);
+}
+@font-face {
+    font-family: rubik-reguler;
+    src: url(/asset/fonts/Rubik-Regular.ttf);
+}
+@font-face {
+    font-family: rubik-medium;
+    src: url(/asset/fonts/Rubik-Medium.ttf);
+}
+
+body{ 
+    background-color: #2b0450;
+}
+nav {
+    background-color: #2b0450;
+}
+
+.navbar-nav a{
+    margin: 0px 10px;
+    font-family: rubik-reguler;
+    border-bottom: 2px solid transparent;
+    transition: 0.5s;
+}
+.navbar i{
+    font-family: rubik-bold;6
+}
+.navbar-nav a:hover{
+    border-bottom: 2px solid #8c00ff;
+}
+.jumbotron .container img{
+    width: 550px;
+}
+.jumbotron {
+    width: 100%;
+    height: 500px;
+}
+.judul{
+    margin: 5px;
+    padding-top: 70px;
+    color: white;
+}
+.judul h1{
+    font-family: rubik-bold;
+    font-size: 55px;
+}
+.judul h3{
+    font-family: rubik-medium;
+    font-size: 30px;
+}
+.judul p{
+    font-family: rubik-reguler;
+    font-size: 15px;
+}
+.judul button{
+    margin-right:10px;
+    background-color: transparent;
+    border: 2px solid;
+    font-family: rubik-medium;
+    border-radius: 15px;
+}
+.judul button:hover {
+    background-color: #5100bb;
+    border: 2px solid;
+}
+#about h2{
+    font-family: rubik-bold;
+    color: white;
+}
+#about p{
+    font-family: rubik-reguler;
+    color: white;
+}
+#about .card i{
+    padding:15px;
+    font-size: 110px;
+}
+#about .card{
+    height: 180px;
+    box-shadow: 0px 0px 5px #0798b1;
+    transition: 1s;
+    border-radius: 20px;
+    background-color: #1b0b29;
+    color: white;
+}
+#about .card h5{
+    padding-top: 5px;
+    margin-left: 15px;
+    font-family: rubik-medium;
+    font-size: 25px;
+}
+#about .card p{
+    padding-bottom: 5px;
+    margin-left: 15px;
+    font-family: rubik-reguler;
+    font-size: 15px;
+}
+#about .card:hover{
+    bottom: 10px;
+    box-shadow: 0px 0px 15px #0798b1;
+}
+#about .container{
+    width: 100%;
+    height: 100%;
+}
+#price .card-header p {
+    color: white;
+}
+#price{
+    color: white;
+}
+#price h2{
+    font-family: rubik-bold;
+}
+#price p{
+    font-family: rubik-reguler;
+}
+.harga .card{
+    background-color: #1b0b29;
+    border-radius: 20px;
+}
+.harga .card-body h5 b{
+    font-size: 40px;
+    font-family: rubik-medium;
+    background: -webkit-linear-gradient(#ffd000, #ff5500);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.harga .card-body a{
+    font-family: rubik-bold;
+    background: -webkit-linear-gradient(#00ffea, #006aff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-radius: 10px;
+    border: 2px solid #006aff;
+}
+#Contact .container .row .col-7 iframe{
+    border-radius: 10px;
+    width: 600px;
+}
+#Contact .container h1{
+    color: white;
+    font-family: rubik-bold;
+}
+#Contact .container p{
+    color: white;
+    font-family: rubik-reguler;
+}
+#Contact .card .card-body i{
+    font-size: 40px;
+    color: white;
+    margin: 0px 10px;
+}
+#Contact .card .card-body h3{
+    font-family: rubik-bold;
+    color: white;
+}
+#Contact .card {
+    margin: 12px 0px;
+    background-color: #1b0b29;
+}
+footer{
+    color: white;
+    background-color: #1b0b29;
+}
+footer .alamat p{
+    line-height: 20px;
+    font-family: rubik-reguler;
+}
+footer .col-2 ul{
+    color: #006aff;
+    font-family: rubik-medium;
+    font-size: 20px;
+    list-style: none;
+}
+footer .col-2 ul li a{
+    font-size: 15px;
+    color: white;
+    font-family: rubik-reguler;
+    text-decoration: none;
+}
+footer .col-2 iframe{
+    width: 200px;
+    height: 180px;
+}
+footer .col-2 p{
+    color: #006aff;
+    font-size: 20px;
+    font-family: rubik-medium;
+}
+footer .col-2 ul li a b{
+    margin-top: 10px;
+}
+footer .col-2 ul li a:hover{
+    color: #8c00ff;
+}
+footer .col-6 b{
+    font-size: 25px;
+}
