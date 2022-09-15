@@ -17,6 +17,9 @@ body{
 nav {
     background-color: #2b0450;
 }
+#responsive{
+    display: none;
+}
 
 .navbar-nav a{
     margin: 0px 10px;
@@ -89,13 +92,13 @@ nav {
     padding-top: 5px;
     margin-left: 15px;
     font-family: rubik-medium;
-    font-size: 25px;
+    font-size: 20px;
 }
 #about .card p{
     padding-bottom: 5px;
     margin-left: 15px;
     font-family: rubik-reguler;
-    font-size: 15px;
+    font-size: 13px;
 }
 #about .card:hover{
     bottom: 10px;
@@ -198,4 +201,31 @@ footer .col-2 ul li a:hover{
 }
 footer .col-6 b{
     font-size: 25px;
+}
+footer .col-2 a{
+    color: white;
+    text-decoration: none;
+}
+footer .col-2 a:hover{
+    color: #0798b1;
+}
+@media screen and (max-width: 768px) {
+    nav,#Home, #about, #price, #Contact, #footer{
+        display: none;
+    }
+    #responsive {
+        display: contents;
+    }
+    #responsive h1{
+        margin: auto;
+        color: white;
+        text-align: center;
+        margin: 200px 10px 20px 10px;
+        font-family: rubik-bold;
+    }
+    #responsive p{
+        text-align: center;
+        font-family: rubik-medium;
+        color: white;
+    }
 }
